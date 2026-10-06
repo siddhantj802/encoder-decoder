@@ -1,7 +1,7 @@
 .top-bar{
     background-color: var(--primary-dark);
     display: flex;
-    padding: 0.5vh 18vh 0.5vh 18vh;
+    padding: 0.5vh 20vh 0.5vh 18vh;
     justify-content: space-between;
 }
 .right-navbar{
@@ -29,7 +29,7 @@
     
     margin-left: 3vh;
     text-align: center;
-    margin-top: 2vh;
+    margin-top: 1vh;
 }
 .page-subtitle > p{
     font-size: 12px;
@@ -40,4 +40,8 @@
 .left-navbar{
     display: flex;
     justify-content: center;
+}
+.main-logo{
+    text-align: center;
+    margin-top: 6vh;
 }
