@@ -1,0 +1,29 @@
+:root {
+  --primary-dark: #2C5344;
+  --primary: #267A68;
+  --primary-button: #245F50;
+
+  --text-primary: #183B35;
+  --text-secondary: #60777A;
+  --text-muted: #8A9DA0;
+
+  --background: #F7F8F6;
+  --surface: #FFFFFF;
+  --input-background: #FBFCFB;
+
+  --border: #D9E2DF;
+
+  --success-background: #F2F8F4;
+  --success-border: #DDEDE5;
+
+  
+
+}
+body{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: var(--background);
+}
+
+
