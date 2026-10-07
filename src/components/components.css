@@ -1,14 +1,15 @@
+/* NAVBAR */
 .top-bar{
     background-color: var(--primary-dark);
     display: flex;
     padding: 0.5vh 20vh 0.5vh 18vh;
     justify-content: space-between;
 }
+/* RIGHT SIDE NAVBAR WITH LOCK ICON*/
 .right-navbar{
     display: flex;
 }
 .lock-img{
-    
     width: 48px;
     min-height: 70%;
     align-content: center;
@@ -37,13 +38,14 @@
     color: var(--text-muted);
     text-transform: capitalize;
 }
+/* LEFT SIDE NAVBAR WITH TOGGLE BUTTON*/
 .left-navbar{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
+/* HERO SECTION */
 .hero-icon {
   display: flex;
   align-items: center;
@@ -52,6 +54,7 @@
   margin-top: 6vh;
   
 }
+/* LINE DECOR ITEM*/
 .line-decoration {
   display: flex;
   flex-direction: column;
@@ -65,7 +68,7 @@
   background: #8FC8BA;
 }
 
-/* Different widths */
+/* Different widths OF LINE DECOR*/
 .line-decoration span:nth-child(1) {
   width: 18px;
 }
@@ -101,7 +104,7 @@
 .right span:nth-child(3) {
   align-self: flex-start;
 }
-
+/*TEXT SECTION OF THE HERO ELEMENT*/
 .hero-text{
     text-align: center;
     margin-top: -12px;
