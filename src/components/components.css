@@ -29,19 +29,93 @@
     
     margin-left: 3vh;
     text-align: center;
-    margin-top: 1vh;
+    margin-top: 1.6vh;
 }
 .page-subtitle > p{
     font-size: 12px;
-    /* color: rgba(209, 208, 208, 0.83); */
+    
     color: var(--text-muted);
     text-transform: capitalize;
 }
 .left-navbar{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-.main-logo{
+
+
+.hero-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 6vh;
+  
+}
+.line-decoration {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.line-decoration span {
+  display: block;
+  height: 3px;
+  border-radius: 999px;
+  background: #8FC8BA;
+}
+
+/* Different widths */
+.line-decoration span:nth-child(1) {
+  width: 18px;
+}
+
+.line-decoration span:nth-child(2) {
+  width: 30px;
+}
+
+.line-decoration span:nth-child(3) {
+  width: 18px;
+}
+
+.left span:nth-child(1) {
+  align-self: flex-end;
+}
+
+.left span:nth-child(2) {
+  align-self: center;
+}
+
+.left span:nth-child(3) {
+  align-self: flex-end;
+}
+
+.right span:nth-child(1) {
+  align-self: flex-start;
+}
+
+.right span:nth-child(2) {
+  align-self: center;
+}
+
+.right span:nth-child(3) {
+  align-self: flex-start;
+}
+
+.hero-text{
     text-align: center;
-    margin-top: 6vh;
+    margin-top: -12px;
+    
+}
+
+.hero-text > h1{
+    color: var(--text-primary);
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+.hero-text > p{
+    color: var(--text-muted);
+    font-size: 16px;
+    margin-top: 8px;
 }

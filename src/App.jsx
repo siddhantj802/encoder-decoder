@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Header from './components/Header'
-import Title from './components/Title'
+import Hero from './components/Hero'
 
 function App() {
   
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Header/>
-      <Title/>
+      <Hero/>
     </>
   )
 }
